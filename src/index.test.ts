@@ -1,5 +1,5 @@
-import { expect, test, vi} from 'vitest';
-import {Checkout, OpenSeasIntegration, RulesDatabase, PricingRule, CheckoutList} from './index';
+import {expect, test, vi} from 'vitest';
+import {Checkout, OpenSeasIntegration, RulesDatabase} from './index';
 
 test('RulesDatabase returns all pricing rules', () => {
 
