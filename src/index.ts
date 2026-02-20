@@ -36,7 +36,7 @@ export class OpenSeasIntegration {
 export class RulesDatabase {
     // Having the rules on a database allows business decisions without redeploying.
 
-    private get(codes: string[] = []) : PricingRule[] {
+    public get(codes: string[] = []) : PricingRule[] {
         // I'm assuming a pricing table with a simple schema where (type, products) tuples are unique.
         // when enabled == false, checkout should ignore the rule
         return [
